@@ -10,7 +10,7 @@ router.get("/", function (req, res, next) {
 router.get("/ice-flakes", function (req, res, next) {
   res.status(201).json({
     resource: "ice-flakes",
-    count: 205,
+    count: 206,
     shape: "circle",
   });
 });
